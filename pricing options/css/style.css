@@ -1,0 +1,113 @@
+@import "fonts.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Pricing {
+    padding: 100px 0;
+    background: #F5F5F5;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.main {
+    display: inline-block;
+
+}
+
+.main__title__text {
+    font-family: 'Raleway', sans-serif;
+    width: 1170px;
+    text-transform: uppercase;
+    font-size: 36px;
+    Line-height: 42px;
+    text-align: center;
+    vertical-align: center;
+}
+
+.main__line {
+    width: 170px;
+    background: #EC7979;
+    height: 1px;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.main__subtitle {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+    text-align: center;
+}
+
+.main__columns {
+    display: block;
+    text-align: center;
+    margin-top: 59px;
+
+
+}
+
+.main__column__first {
+    display: inline-block;
+    width: 370px;
+    margin-right: 10px;
+
+
+}
+
+.main__column__rate {
+    font-family: 'Open Sans', sans-serif;
+    Font-size: 24px;
+    Line-height: 33px;
+    border: 2px solid #F5F5F5;
+    background: #333333;
+    color: #FFFFFF;
+}
+
+.main__column__price {
+    font-family: 'Raleway', sans-serif;
+    Font-size: 36px;
+    Line-height: 42px;
+    border: 2px solid #F5F5F5;
+    background: #333333;
+    color: #FFFFFF;
+}
+.main__column__access{
+    font-family: 'Raleway', sans-serif;
+    Font-size: 18px;
+    Line-height: 21px;
+    text-align: center;
+    border: 2px solid #F5F5F5;
+    background: #333333;
+    color: #FFFFFF80;
+}
+.main__column__space p{
+    font-family: 'Raleway', sans-serif;
+    Font-size: 18px;
+    Line-height: 21px;
+    border: 2px solid #F5F5F5;
+    color:  #86878B;
+    background: white;
+
+}
+
+.main__column__second {
+    display: inline-block;
+    width: 370px;
+    margin: 0 10px;
+}
+
+.main__column__third {
+    display: inline-block;
+    width: 370px;
+    margin-left: 10px;
+}
