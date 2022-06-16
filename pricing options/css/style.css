@@ -51,7 +51,7 @@
 .main__columns {
     display: block;
     text-align: center;
-    margin-top: 59px;
+    margin-top: 79px;
 
 
 }
@@ -75,6 +75,7 @@
 
 .main__column__price {
     font-family: 'Raleway', sans-serif;
+    padding: 27px 0;
     Font-size: 36px;
     Line-height: 42px;
     border: 2px solid #F5F5F5;
@@ -92,6 +93,7 @@
 }
 .main__column__space p{
     font-family: 'Raleway', sans-serif;
+    text-transform: capitalize;
     Font-size: 18px;
     Line-height: 21px;
     border: 2px solid #F5F5F5;
@@ -104,6 +106,8 @@
     display: inline-block;
     width: 370px;
     margin: 0 10px;
+    position: relative;
+    top: -20px;
 }
 
 .main__column__third {
