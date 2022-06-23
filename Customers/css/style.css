@@ -56,7 +56,6 @@
 }
 
 .customers-carts__text {
-    flex-direction: column;
     background: #E2E2E2;
     padding: 38px 20px 37px 20px;
     margin-bottom: 66px;
@@ -83,7 +82,6 @@
 }
 
 .customers-carts__item__title {
-    flex-direction: row;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-size: 24px;
