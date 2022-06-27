@@ -17,7 +17,7 @@
     margin: 0 auto;
 }
 
-.main-title {
+.customer__title {
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
     font-weight: normal;
@@ -27,7 +27,7 @@
     padding: 54px 0;
 }
 
-.main-subtitle:before {
+.customer__subtitle:before {
     content: "";
     width: 170px;
     height: 1px;
@@ -38,7 +38,7 @@
     transform: translate(-50%, -50%);
 }
 
-.main-subtitle {
+.customer__subtitle {
     position: relative;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
@@ -49,13 +49,13 @@
     margin: 40px 0 83px 0;
 }
 
-.customers-carts {
+.customers__carts {
     display: flex;
     justify-content: space-between;
 
 }
 
-.customers-carts__text {
+.customers__carts__text {
     background: #E2E2E2;
     padding: 38px 20px 37px 20px;
     margin-bottom: 66px;
@@ -70,7 +70,7 @@
 
 }
 
-.customers-carts__text:after {
+.customers__carts__text:after {
     content: "";
     width: 0;
     height: 0;
@@ -81,7 +81,7 @@
     margin: 27px 0 0 -115px;
 }
 
-.customers-carts__item__title {
+.customers__carts__item__title {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-size: 24px;
@@ -90,7 +90,7 @@
     margin-bottom: 15px;
 }
 
-.customers-carts__item__title__first:before {
+.customers__carts__item__title-first:before {
     content: '';
     padding: 50px;
     width: 70px;
@@ -98,7 +98,7 @@
     background: url("../image/Ellipse 7.svg") 10px no-repeat;
 }
 
-.customers-carts__item__title__second:before {
+.customers__carts__item__title-second:before {
     content: '';
     padding: 50px;
     width: 70px;
@@ -106,7 +106,7 @@
     background: url("../image/Ellipse 8.svg") 10px no-repeat;
 }
 
-.customers-carts__item__title__third:before {
+.customers__carts__item__title-third:before {
     content: '';
     padding: 50px;
     width: 70px;
@@ -114,7 +114,7 @@
     background: url("../image/Ellipse 9.svg") 10px no-repeat;
 }
 
-.customers-carts__item__subtitle {
+.customers__carts__item__subtitle {
     font-family: 'Raleway';
     font-weight: 400;
     font-size: 18px;
