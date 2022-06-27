@@ -158,6 +158,9 @@ form {
     text-align: center;
     text-transform: uppercase;
 }
+span{
+    color: #EC7979;
+}
 
 .banner__form-name input {
     font-family: 'Open Sans', sans-serif;
